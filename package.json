@@ -1,0 +1,16 @@
+{
+  "name": "observer_design_pattern",
+  "version": "1.0.0",
+  "description": "Design_pattern_Observer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Philip",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
