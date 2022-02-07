@@ -2,7 +2,7 @@
   "name": "observer_design_pattern",
   "version": "1.0.0",
   "description": "Design_pattern_Observer",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
