@@ -1,5 +1,5 @@
-import IObserver from "../interfaces/Iobserver";
-import ISubject from "../interfaces/Isubject";
+import IObserver from "../interfaces/IObserver";
+import ISubject from "../interfaces/ISubject";
 
 export default class Subject implements ISubject {
 

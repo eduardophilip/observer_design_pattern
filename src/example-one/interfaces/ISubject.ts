@@ -1,4 +1,4 @@
-import IObserver from './Iobserver';
+import IObserver from './IObserver';
 
 export default interface ISubject {
     subscribe(observer: IObserver): void;

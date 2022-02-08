@@ -1,4 +1,4 @@
-import IObserver from "../interfaces/Iobserver";
+import IObserver from "../interfaces/IObserver"
 
 export default class Observer implements IObserver {
     
