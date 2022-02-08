@@ -10,7 +10,7 @@ const newVideo = new Video(
     "https://www.youtube.com/watch?v=ioYkXh8NhKc",
 );
 
-const newVideoNotification = new VideoNotificationSubject(newVideo);
+const videoNotification = new VideoNotificationSubject(newVideo);
 
 // **** Need make a refactoring ****///
 
@@ -22,18 +22,18 @@ const feed = new Feed("UCFuIUoyHB12qpYa8Jpxoxow");
 
 
 // Subscriber observers
-newVideoNotification.subscriber(obsJoao);
-newVideoNotification.subscriber(obsMaria);
-newVideoNotification.subscriber(obsJuliana);
-newVideoNotification.subscriber(feed);
+videoNotification.subscriber(obsJoao);
+videoNotification.subscriber(obsMaria);
+videoNotification.subscriber(obsJuliana);
+videoNotification.subscriber(feed);
 
 
 console.log("Notifying observers...");
-newVideoNotification.notifyAll();
+videoNotification.notifyAll();
 
 // Unsubscribe juliana
 console.log("Unsubscribe Juliana");
-newVideoNotification.unsubscriber(obsJuliana);
+videoNotification.unsubscriber(obsJuliana);
 // Notify again
 console.log("Notifying observers...");
-newVideoNotification.notifyAll();
+videoNotification.notifyAll();
